@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		02DFF7FE1F40050F0098E6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF7FD1F40050F0098E6AF /* main.m */; };
 		02DFF8011F40050F0098E6AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8001F40050F0098E6AF /* AppDelegate.m */; };
-		02DFF8041F40050F0098E6AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8031F40050F0098E6AF /* ViewController.m */; };
 		02DFF8071F40050F0098E6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8051F40050F0098E6AF /* Main.storyboard */; };
 		02DFF8091F40050F0098E6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8081F40050F0098E6AF /* Assets.xcassets */; };
 		02DFF80C1F40050F0098E6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF80A1F40050F0098E6AF /* LaunchScreen.storyboard */; };
+		02DFF8161F400AE00098E6AF /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8151F400AE00098E6AF /* MainTabBarController.m */; };
+		02DFF8191F400B370098E6AF /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8181F400B370098E6AF /* MarketViewController.m */; };
+		02DFF83A1F4011280098E6AF /* mazda3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8381F4011280098E6AF /* mazda3.jpg */; };
+		02DFF83B1F4011280098E6AF /* mercedes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8391F4011280098E6AF /* mercedes.jpg */; };
+		02DFF8481F402B7B0098E6AF /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8431F402B7B0098E6AF /* Product.m */; };
+		02DFF8491F402B7B0098E6AF /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8451F402B7B0098E6AF /* Vehicle.m */; };
+		02DFF84A1F402B7B0098E6AF /* VehicleFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8471F402B7B0098E6AF /* VehicleFeed.m */; };
+		02DFF84D1F402D180098E6AF /* Vendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF84C1F402D180098E6AF /* Vendor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +27,24 @@
 		02DFF7FD1F40050F0098E6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02DFF7FF1F40050F0098E6AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02DFF8001F40050F0098E6AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		02DFF8021F40050F0098E6AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		02DFF8031F40050F0098E6AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		02DFF8061F40050F0098E6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02DFF8081F40050F0098E6AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02DFF80B1F40050F0098E6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02DFF80D1F40050F0098E6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DFF8141F400AE00098E6AF /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTabBarController.h; path = Controllers/MainTabBarController.h; sourceTree = "<group>"; };
+		02DFF8151F400AE00098E6AF /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabBarController.m; path = Controllers/MainTabBarController.m; sourceTree = "<group>"; };
+		02DFF8171F400B370098E6AF /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketViewController.h; path = Controllers/MarketViewController.h; sourceTree = "<group>"; };
+		02DFF8181F400B370098E6AF /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketViewController.m; path = Controllers/MarketViewController.m; sourceTree = "<group>"; };
+		02DFF8381F4011280098E6AF /* mazda3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mazda3.jpg; sourceTree = "<group>"; };
+		02DFF8391F4011280098E6AF /* mercedes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercedes.jpg; sourceTree = "<group>"; };
+		02DFF8421F402B7B0098E6AF /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = Model/Product.h; sourceTree = "<group>"; };
+		02DFF8431F402B7B0098E6AF /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = Model/Product.m; sourceTree = "<group>"; };
+		02DFF8441F402B7B0098E6AF /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = Model/Vehicle.h; sourceTree = "<group>"; };
+		02DFF8451F402B7B0098E6AF /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vehicle.m; path = Model/Vehicle.m; sourceTree = "<group>"; };
+		02DFF8461F402B7B0098E6AF /* VehicleFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VehicleFeed.h; path = Model/VehicleFeed.h; sourceTree = "<group>"; };
+		02DFF8471F402B7B0098E6AF /* VehicleFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VehicleFeed.m; path = Model/VehicleFeed.m; sourceTree = "<group>"; };
+		02DFF84B1F402D180098E6AF /* Vendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vendor.h; path = Model/Vendor.h; sourceTree = "<group>"; };
+		02DFF84C1F402D180098E6AF /* Vendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vendor.m; path = Model/Vendor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +77,11 @@
 		02DFF7FB1F40050F0098E6AF /* project-cars */ = {
 			isa = PBXGroup;
 			children = (
+				02DFF8371F40111F0098E6AF /* resource */,
+				02DFF81A1F400B970098E6AF /* Model */,
+				02DFF8131F400A890098E6AF /* Controllers */,
 				02DFF7FF1F40050F0098E6AF /* AppDelegate.h */,
 				02DFF8001F40050F0098E6AF /* AppDelegate.m */,
-				02DFF8021F40050F0098E6AF /* ViewController.h */,
-				02DFF8031F40050F0098E6AF /* ViewController.m */,
 				02DFF8051F40050F0098E6AF /* Main.storyboard */,
 				02DFF8081F40050F0098E6AF /* Assets.xcassets */,
 				02DFF80A1F40050F0098E6AF /* LaunchScreen.storyboard */,
@@ -77,6 +97,41 @@
 				02DFF7FD1F40050F0098E6AF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02DFF8131F400A890098E6AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				02DFF8141F400AE00098E6AF /* MainTabBarController.h */,
+				02DFF8151F400AE00098E6AF /* MainTabBarController.m */,
+				02DFF8171F400B370098E6AF /* MarketViewController.h */,
+				02DFF8181F400B370098E6AF /* MarketViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		02DFF81A1F400B970098E6AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02DFF8421F402B7B0098E6AF /* Product.h */,
+				02DFF8431F402B7B0098E6AF /* Product.m */,
+				02DFF8441F402B7B0098E6AF /* Vehicle.h */,
+				02DFF8451F402B7B0098E6AF /* Vehicle.m */,
+				02DFF8461F402B7B0098E6AF /* VehicleFeed.h */,
+				02DFF8471F402B7B0098E6AF /* VehicleFeed.m */,
+				02DFF84B1F402D180098E6AF /* Vendor.h */,
+				02DFF84C1F402D180098E6AF /* Vendor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		02DFF8371F40111F0098E6AF /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				02DFF8381F4011280098E6AF /* mazda3.jpg */,
+				02DFF8391F4011280098E6AF /* mercedes.jpg */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +194,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DFF80C1F40050F0098E6AF /* LaunchScreen.storyboard in Resources */,
+				02DFF83A1F4011280098E6AF /* mazda3.jpg in Resources */,
 				02DFF8091F40050F0098E6AF /* Assets.xcassets in Resources */,
+				02DFF83B1F4011280098E6AF /* mercedes.jpg in Resources */,
 				02DFF8071F40050F0098E6AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02DFF8041F40050F0098E6AF /* ViewController.m in Sources */,
+				02DFF8191F400B370098E6AF /* MarketViewController.m in Sources */,
+				02DFF84D1F402D180098E6AF /* Vendor.m in Sources */,
+				02DFF8481F402B7B0098E6AF /* Product.m in Sources */,
+				02DFF8491F402B7B0098E6AF /* Vehicle.m in Sources */,
 				02DFF8011F40050F0098E6AF /* AppDelegate.m in Sources */,
+				02DFF8161F400AE00098E6AF /* MainTabBarController.m in Sources */,
 				02DFF7FE1F40050F0098E6AF /* main.m in Sources */,
+				02DFF84A1F402B7B0098E6AF /* VehicleFeed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

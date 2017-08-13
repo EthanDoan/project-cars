@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Vendor.m
 //  project-cars
 //
 //  Created by Doan Phuong on 8/13/17.
 //  Copyright © 2017 Phuong Doan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Vendor.h"
 
-@interface ViewController : UIViewController
-
+@implementation Vendor
 
 @end
-

@@ -1,24 +1,25 @@
 //
-//  ViewController.m
+//  MainTabBarController.m
 //  project-cars
 //
 //  Created by Doan Phuong on 8/13/17.
 //  Copyright © 2017 Phuong Doan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainTabBarController.h"
 
-@interface ViewController ()
+@interface MainTabBarController ()
 
 @end
 
-@implementation ViewController
+@implementation MainTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
+    
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
