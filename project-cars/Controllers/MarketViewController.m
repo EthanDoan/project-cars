@@ -64,7 +64,7 @@
     }
     
     VehicleFeed *feed = _feeds[indexPath.row];
-    cell.feedImageView.image = [UIImage imageNamed:feed.productImages[0]];
+    cell.feedImageView.image = feed.productImages[0];
     cell.feedTitleLabel.text = feed.feedTitle;
     cell.feedPriceLabel.text = [NSString stringWithFormat:@"%zd vnd", feed.feedPrice];
     cell.feedTimeLabel.text = [NSString stringWithFormat:@"%@ | %@", feed.feedPublishTime, feed.feedAddress];

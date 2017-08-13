@@ -12,7 +12,10 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+
+    [self.feedPriceLabel setTextColor:[UIColor redColor]];
+    [self.feedTimeLabel setTextColor:[UIColor grayColor]];
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
