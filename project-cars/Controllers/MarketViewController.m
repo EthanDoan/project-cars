@@ -10,6 +10,7 @@
 #import "VehicleFeed.h"
 #import "Vendor.h"
 #import "VehicleFeedTableViewCell.h"
+#import "FeedDetailViewController.h"
 
 @interface MarketViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -24,7 +25,7 @@
     
     for (int i=0; i<10; i++) {
         VehicleFeed *vhFeed = [[VehicleFeed alloc] initFakeVehicle];
-        vhFeed.feedVendor = [[Vendor alloc] initWithName:@"PMH Toyota" address:@"806 Nguyen Van Linh, P.Tan Phu, Q.7"];
+        vhFeed.feedVendor = [[Vendor alloc] initWithName:@"PMH Toyota" address:@"806 Nguyen Van Linh, P.Tan Phu, Q.7" avatar:[UIImage imageNamed:@"vendortoyota.jpg"]];
         vhFeed.feedPhoneNumber = @"0909090909";
         vhFeed.feedAddress = @"807 Tran Van Dang, Q10";
         vhFeed.feedDescription = @"Liên hệ Ms. Tâm để nhận tư vấn khuyến mãi và lịch giao xe sớm\n      Bán Fortuner với nhiều chương trình Khuyến mãi\n Hỗ trợ Khách hàng có nhu cầu Kinh doanh xe chạy Grap – Uber\n THU MUA XE CŨ VỚI GIÁ CAO - ĐỔI XE MỚI\nChương trình khuyến mãi hấp dẫn với nhiều lựa chọn tại Toyota Hùng Vương cho các dòng xe:\n- Áo trùm xe\n- Ví da đựng hồ sơ\n- Thảm trải sàn\n- Phiếu xăng, phiếu thay nhớt, móc khóa Toyota, khung ảnh, áo thun Toyota,.....\n- Hỗ trợ trả góp đến 95% giá trị xe, lãi suất 0.5%/tháng, thời hạn vay đến 8 năm.\n- Hỗ trợ giao xe và làm thủ tục đăng ký xe trên toàn quốc.\nPhòng Kinh Doanh – Ms. Tâm\nCông ty TNHH Toyota Hùng Vương\n26 Kinh Dương Vương, Phường 13, Quận 6, TP.Hồ Chí Minh.";
@@ -77,6 +78,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    FeedDetailViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"FeedDetailViewController"];
+    vc.vehicleFeed = _feeds[indexPath.row];
+    [self.navigationController pushViewController:vc animated:YES];
     
 }
 

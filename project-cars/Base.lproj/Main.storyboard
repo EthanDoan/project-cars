@@ -27,7 +27,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdz-6G-5j0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-516" y="853"/>
+            <point key="canvasLocation" x="1871" y="-299"/>
         </scene>
         <!--Toi ban-->
         <scene sceneID="Tdj-mX-kcU">
@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ceD-eR-Bgj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="438" y="356"/>
+            <point key="canvasLocation" x="1156" y="-299"/>
         </scene>
         <!--MarketViewController-->
         <scene sceneID="LNy-Mm-PwE">
@@ -160,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDw-bv-Hjq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-516" y="-707"/>
+            <point key="canvasLocation" x="2580" y="-299"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="p7H-XK-9ac">
@@ -172,6 +172,7 @@
                     </navigationBar>
                     <connections>
                         <segue destination="HrQ-g7-G3t" kind="relationship" relationship="rootViewController" id="Fty-od-3n0"/>
+                        <segue destination="63q-W5-CE1" kind="show" identifier="FeedDetail" id="yg8-vZ-hfb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MJC-tY-qD8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -198,6 +199,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FbO-KX-YWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-426" y="27"/>
+        </scene>
+        <!--Feed Detail View Controller-->
+        <scene sceneID="Clv-BV-fmd">
+            <objects>
+                <viewController storyboardIdentifier="FeedDetailViewController" id="63q-W5-CE1" customClass="FeedDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eJ3-w5-zqb"/>
+                        <viewControllerLayoutGuide type="bottom" id="YGQ-5k-zme"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WFW-fL-Qlf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LnJ-d8-GoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="437.60000000000002" y="406.14692653673166"/>
         </scene>
     </scenes>
 </document>

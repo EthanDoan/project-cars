@@ -7,12 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface Vendor : NSObject
 
 @property (strong, nonatomic) NSString *vendorName;
 @property (strong, nonatomic) NSString *vendorAddress;
+@property (strong, nonatomic) UIImage *vendorAvatar;
 
-- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress;
+- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress avatar:(UIImage *)vendorAvatar;
 
 @end

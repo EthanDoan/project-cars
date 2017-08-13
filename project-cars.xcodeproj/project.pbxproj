@@ -21,6 +21,12 @@
 		02DFF84A1F402B7B0098E6AF /* VehicleFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8471F402B7B0098E6AF /* VehicleFeed.m */; };
 		02DFF84D1F402D180098E6AF /* Vendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF84C1F402D180098E6AF /* Vendor.m */; };
 		02DFF8511F402F040098E6AF /* VehicleFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8501F402F040098E6AF /* VehicleFeedTableViewCell.m */; };
+		02DFF8541F403E4B0098E6AF /* FeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8531F403E4B0098E6AF /* FeedDetailViewController.m */; };
+		02DFF85A1F4040F00098E6AF /* ImageTitleInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8591F4040F00098E6AF /* ImageTitleInfoView.m */; };
+		02DFF85C1F4041080098E6AF /* ImageTitleInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF85B1F4041080098E6AF /* ImageTitleInfoView.xib */; };
+		02DFF85E1F404BF40098E6AF /* VendorInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF85D1F404BF40098E6AF /* VendorInfoView.xib */; };
+		02DFF8611F404C140098E6AF /* VendorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8601F404C140098E6AF /* VendorInfoView.m */; };
+		02DFF8631F404EEB0098E6AF /* vendortoyota.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8621F404EEB0098E6AF /* vendortoyota.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +54,15 @@
 		02DFF84C1F402D180098E6AF /* Vendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vendor.m; path = Model/Vendor.m; sourceTree = "<group>"; };
 		02DFF84F1F402F040098E6AF /* VehicleFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VehicleFeedTableViewCell.h; path = Reusable/VehicleFeedTableViewCell.h; sourceTree = "<group>"; };
 		02DFF8501F402F040098E6AF /* VehicleFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VehicleFeedTableViewCell.m; path = Reusable/VehicleFeedTableViewCell.m; sourceTree = "<group>"; };
+		02DFF8521F403E4B0098E6AF /* FeedDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedDetailViewController.h; path = Controllers/FeedDetailViewController.h; sourceTree = "<group>"; };
+		02DFF8531F403E4B0098E6AF /* FeedDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedDetailViewController.m; path = Controllers/FeedDetailViewController.m; sourceTree = "<group>"; };
+		02DFF8581F4040F00098E6AF /* ImageTitleInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageTitleInfoView.h; path = FeedDetailViews/ImageTitleInfoView.h; sourceTree = "<group>"; };
+		02DFF8591F4040F00098E6AF /* ImageTitleInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageTitleInfoView.m; path = FeedDetailViews/ImageTitleInfoView.m; sourceTree = "<group>"; };
+		02DFF85B1F4041080098E6AF /* ImageTitleInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageTitleInfoView.xib; path = FeedDetailViews/ImageTitleInfoView.xib; sourceTree = "<group>"; };
+		02DFF85D1F404BF40098E6AF /* VendorInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VendorInfoView.xib; path = FeedDetailViews/VendorInfoView.xib; sourceTree = "<group>"; };
+		02DFF85F1F404C140098E6AF /* VendorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VendorInfoView.h; path = FeedDetailViews/VendorInfoView.h; sourceTree = "<group>"; };
+		02DFF8601F404C140098E6AF /* VendorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VendorInfoView.m; path = FeedDetailViews/VendorInfoView.m; sourceTree = "<group>"; };
+		02DFF8621F404EEB0098E6AF /* vendortoyota.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vendortoyota.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,7 @@
 		02DFF7FB1F40050F0098E6AF /* project-cars */ = {
 			isa = PBXGroup;
 			children = (
+				02DFF8551F403FED0098E6AF /* FeedDetailViews */,
 				02DFF84E1F402EC00098E6AF /* Reusable */,
 				02DFF8371F40111F0098E6AF /* resource */,
 				02DFF81A1F400B970098E6AF /* Model */,
@@ -110,6 +126,8 @@
 				02DFF8151F400AE00098E6AF /* MainTabBarController.m */,
 				02DFF8171F400B370098E6AF /* MarketViewController.h */,
 				02DFF8181F400B370098E6AF /* MarketViewController.m */,
+				02DFF8521F403E4B0098E6AF /* FeedDetailViewController.h */,
+				02DFF8531F403E4B0098E6AF /* FeedDetailViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -134,6 +152,7 @@
 			children = (
 				02DFF8381F4011280098E6AF /* mazda3.jpg */,
 				02DFF8391F4011280098E6AF /* mercedes.jpg */,
+				02DFF8621F404EEB0098E6AF /* vendortoyota.jpg */,
 			);
 			name = resource;
 			sourceTree = "<group>";
@@ -145,6 +164,19 @@
 				02DFF8501F402F040098E6AF /* VehicleFeedTableViewCell.m */,
 			);
 			name = Reusable;
+			sourceTree = "<group>";
+		};
+		02DFF8551F403FED0098E6AF /* FeedDetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				02DFF8581F4040F00098E6AF /* ImageTitleInfoView.h */,
+				02DFF8591F4040F00098E6AF /* ImageTitleInfoView.m */,
+				02DFF85B1F4041080098E6AF /* ImageTitleInfoView.xib */,
+				02DFF85F1F404C140098E6AF /* VendorInfoView.h */,
+				02DFF8601F404C140098E6AF /* VendorInfoView.m */,
+				02DFF85D1F404BF40098E6AF /* VendorInfoView.xib */,
+			);
+			name = FeedDetailViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DFF85E1F404BF40098E6AF /* VendorInfoView.xib in Resources */,
 				02DFF80C1F40050F0098E6AF /* LaunchScreen.storyboard in Resources */,
 				02DFF83A1F4011280098E6AF /* mazda3.jpg in Resources */,
+				02DFF8631F404EEB0098E6AF /* vendortoyota.jpg in Resources */,
 				02DFF8091F40050F0098E6AF /* Assets.xcassets in Resources */,
+				02DFF85C1F4041080098E6AF /* ImageTitleInfoView.xib in Resources */,
 				02DFF83B1F4011280098E6AF /* mercedes.jpg in Resources */,
 				02DFF8071F40050F0098E6AF /* Main.storyboard in Resources */,
 			);
@@ -226,10 +261,13 @@
 				02DFF8481F402B7B0098E6AF /* Product.m in Sources */,
 				02DFF8491F402B7B0098E6AF /* Vehicle.m in Sources */,
 				02DFF8011F40050F0098E6AF /* AppDelegate.m in Sources */,
+				02DFF8541F403E4B0098E6AF /* FeedDetailViewController.m in Sources */,
 				02DFF8161F400AE00098E6AF /* MainTabBarController.m in Sources */,
 				02DFF7FE1F40050F0098E6AF /* main.m in Sources */,
+				02DFF8611F404C140098E6AF /* VendorInfoView.m in Sources */,
 				02DFF84A1F402B7B0098E6AF /* VehicleFeed.m in Sources */,
 				02DFF8511F402F040098E6AF /* VehicleFeedTableViewCell.m in Sources */,
+				02DFF85A1F4040F00098E6AF /* ImageTitleInfoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
