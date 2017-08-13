@@ -10,4 +10,9 @@
 
 @interface Vendor : NSObject
 
+@property (strong, nonatomic) NSString *vendorName;
+@property (strong, nonatomic) NSString *vendorAddress;
+
+- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress;
+
 @end

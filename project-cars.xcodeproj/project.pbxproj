@@ -20,6 +20,7 @@
 		02DFF8491F402B7B0098E6AF /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8451F402B7B0098E6AF /* Vehicle.m */; };
 		02DFF84A1F402B7B0098E6AF /* VehicleFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8471F402B7B0098E6AF /* VehicleFeed.m */; };
 		02DFF84D1F402D180098E6AF /* Vendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF84C1F402D180098E6AF /* Vendor.m */; };
+		02DFF8511F402F040098E6AF /* VehicleFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8501F402F040098E6AF /* VehicleFeedTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		02DFF8471F402B7B0098E6AF /* VehicleFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VehicleFeed.m; path = Model/VehicleFeed.m; sourceTree = "<group>"; };
 		02DFF84B1F402D180098E6AF /* Vendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vendor.h; path = Model/Vendor.h; sourceTree = "<group>"; };
 		02DFF84C1F402D180098E6AF /* Vendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vendor.m; path = Model/Vendor.m; sourceTree = "<group>"; };
+		02DFF84F1F402F040098E6AF /* VehicleFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VehicleFeedTableViewCell.h; path = Reusable/VehicleFeedTableViewCell.h; sourceTree = "<group>"; };
+		02DFF8501F402F040098E6AF /* VehicleFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VehicleFeedTableViewCell.m; path = Reusable/VehicleFeedTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		02DFF7FB1F40050F0098E6AF /* project-cars */ = {
 			isa = PBXGroup;
 			children = (
+				02DFF84E1F402EC00098E6AF /* Reusable */,
 				02DFF8371F40111F0098E6AF /* resource */,
 				02DFF81A1F400B970098E6AF /* Model */,
 				02DFF8131F400A890098E6AF /* Controllers */,
@@ -132,6 +136,15 @@
 				02DFF8391F4011280098E6AF /* mercedes.jpg */,
 			);
 			name = resource;
+			sourceTree = "<group>";
+		};
+		02DFF84E1F402EC00098E6AF /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				02DFF84F1F402F040098E6AF /* VehicleFeedTableViewCell.h */,
+				02DFF8501F402F040098E6AF /* VehicleFeedTableViewCell.m */,
+			);
+			name = Reusable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 				02DFF8161F400AE00098E6AF /* MainTabBarController.m in Sources */,
 				02DFF7FE1F40050F0098E6AF /* main.m in Sources */,
 				02DFF84A1F402B7B0098E6AF /* VehicleFeed.m in Sources */,
+				02DFF8511F402F040098E6AF /* VehicleFeedTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

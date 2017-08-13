@@ -12,4 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *marketTableView;
 
+@property (strong, nonatomic) NSMutableArray *feeds;
+
+
 @end

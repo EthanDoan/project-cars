@@ -10,4 +10,13 @@
 
 @implementation Vendor
 
+- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress {
+    self = [super init];
+    if (self) {
+        self.vendorName = vendorName;
+        self.vendorAddress = vendorAddress;
+    }
+    return self;
+}
+
 @end
