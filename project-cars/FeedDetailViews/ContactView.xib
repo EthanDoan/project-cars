@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ContactView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zT6-5C-28A">
+                    <rect key="frame" x="16" y="8" width="343" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="6xl-Wx-J9q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTx-HO-piu">
+                    <rect key="frame" x="16" y="31" width="359" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="GMK-Om-zNQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_place.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cn6-kv-z57">
+                    <rect key="frame" x="16" y="40" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="RcN-yF-NCJ"/>
+                        <constraint firstAttribute="height" constant="20" id="UTh-aj-TCX"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="jNm-no-8gO">
+                    <rect key="frame" x="16" y="68" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="5Xm-Ul-a0p"/>
+                        <constraint firstAttribute="width" constant="20" id="KAe-C2-8A0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quan Tan Phu, Tp Ho Chi Minh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mp9-3i-ASm">
+                    <rect key="frame" x="44" y="42" width="315" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0909090909" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh7-zA-aq3">
+                    <rect key="frame" x="44" y="70" width="315" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mp9-3i-ASm" firstAttribute="leading" secondItem="Cn6-kv-z57" secondAttribute="trailing" constant="8" id="6yW-AU-P4g"/>
+                <constraint firstAttribute="trailing" secondItem="DTx-HO-piu" secondAttribute="trailing" id="B2f-X9-hPT"/>
+                <constraint firstItem="Cn6-kv-z57" firstAttribute="top" secondItem="DTx-HO-piu" secondAttribute="bottom" constant="8" id="HJG-nP-xdw"/>
+                <constraint firstAttribute="trailing" secondItem="zT6-5C-28A" secondAttribute="trailing" constant="16" id="JqR-mU-GfW"/>
+                <constraint firstItem="lh7-zA-aq3" firstAttribute="centerY" secondItem="jNm-no-8gO" secondAttribute="centerY" id="PE3-9X-3hy"/>
+                <constraint firstItem="lh7-zA-aq3" firstAttribute="leading" secondItem="jNm-no-8gO" secondAttribute="trailing" constant="8" id="RbE-jk-dHK"/>
+                <constraint firstItem="DTx-HO-piu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="T53-T2-bJq"/>
+                <constraint firstAttribute="trailing" secondItem="lh7-zA-aq3" secondAttribute="trailing" constant="16" id="V3q-KX-gvl"/>
+                <constraint firstItem="Cn6-kv-z57" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="akd-kv-veh"/>
+                <constraint firstItem="jNm-no-8gO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="b0r-5k-lPW"/>
+                <constraint firstItem="zT6-5C-28A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="dyM-O5-6bO"/>
+                <constraint firstItem="jNm-no-8gO" firstAttribute="top" secondItem="Cn6-kv-z57" secondAttribute="bottom" constant="8" id="mQc-L2-6wQ"/>
+                <constraint firstItem="mp9-3i-ASm" firstAttribute="centerY" secondItem="Cn6-kv-z57" secondAttribute="centerY" id="onc-fC-efi"/>
+                <constraint firstItem="DTx-HO-piu" firstAttribute="top" secondItem="zT6-5C-28A" secondAttribute="bottom" constant="2" id="pXD-Ii-pkT"/>
+                <constraint firstAttribute="trailing" secondItem="mp9-3i-ASm" secondAttribute="trailing" constant="16" id="qlX-sb-5tE"/>
+                <constraint firstItem="zT6-5C-28A" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="wI2-pO-rW2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="locationLabel" destination="mp9-3i-ASm" id="xBQ-u3-dpJ"/>
+                <outlet property="phoneLabel" destination="lh7-zA-aq3" id="YlO-ig-YGP"/>
+            </connections>
+            <point key="canvasLocation" x="67.5" y="-228"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_phone.png" width="24" height="24"/>
+        <image name="ic_place.png" width="24" height="24"/>
+    </resources>
+</document>

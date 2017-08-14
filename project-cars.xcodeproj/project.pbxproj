@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0237EC541F41F77600898765 /* ic_bmw.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC481F41F77600898765 /* ic_bmw.png */; };
+		0237EC551F41F77600898765 /* ic_chevrolet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC491F41F77600898765 /* ic_chevrolet.png */; };
+		0237EC561F41F77600898765 /* ic_ford.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC4A1F41F77600898765 /* ic_ford.png */; };
+		0237EC581F41F77600898765 /* ic_hyundai.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC4C1F41F77600898765 /* ic_hyundai.png */; };
+		0237EC591F41F77600898765 /* ic_kia.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC4D1F41F77600898765 /* ic_kia.png */; };
+		0237EC5A1F41F77600898765 /* ic_lexus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC4E1F41F77600898765 /* ic_lexus.png */; };
+		0237EC5B1F41F77600898765 /* ic_mazda.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC4F1F41F77600898765 /* ic_mazda.png */; };
+		0237EC5C1F41F77600898765 /* ic_mercedes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC501F41F77600898765 /* ic_mercedes.png */; };
+		0237EC5D1F41F77600898765 /* ic_mitsubishi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC511F41F77600898765 /* ic_mitsubishi.png */; };
+		0237EC5E1F41F77600898765 /* ic_others.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC521F41F77600898765 /* ic_others.png */; };
+		0237EC5F1F41F77600898765 /* ic_toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC531F41F77600898765 /* ic_toyota.png */; };
+		0237EC621F41F7D500898765 /* BrandCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0237EC611F41F7D500898765 /* BrandCollectionViewCell.m */; };
+		0237EC641F41FCEF00898765 /* ic_honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC631F41FCEF00898765 /* ic_honda.png */; };
+		0237EC661F41FD4C00898765 /* ic_suzuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC651F41FD4C00898765 /* ic_suzuki.png */; };
+		0237EC681F41FDBD00898765 /* ic_audi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC671F41FDBD00898765 /* ic_audi.png */; };
 		02DFF7FE1F40050F0098E6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF7FD1F40050F0098E6AF /* main.m */; };
 		02DFF8011F40050F0098E6AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8001F40050F0098E6AF /* AppDelegate.m */; };
 		02DFF8071F40050F0098E6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8051F40050F0098E6AF /* Main.storyboard */; };
@@ -27,9 +42,63 @@
 		02DFF85E1F404BF40098E6AF /* VendorInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF85D1F404BF40098E6AF /* VendorInfoView.xib */; };
 		02DFF8611F404C140098E6AF /* VendorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8601F404C140098E6AF /* VendorInfoView.m */; };
 		02DFF8631F404EEB0098E6AF /* vendortoyota.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8621F404EEB0098E6AF /* vendortoyota.jpg */; };
+		02DFF8651F409B560098E6AF /* SpecificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8641F409B560098E6AF /* SpecificationView.xib */; };
+		02DFF8681F409BA20098E6AF /* SpecificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8671F409BA20098E6AF /* SpecificationView.m */; };
+		02DFF88B1F40AD790098E6AF /* ic_fuel.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF86D1F40AD790098E6AF /* ic_fuel.png */; };
+		02DFF88C1F40AD790098E6AF /* ic_fuel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF86E1F40AD790098E6AF /* ic_fuel@2x.png */; };
+		02DFF88D1F40AD790098E6AF /* ic_fuel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF86F1F40AD790098E6AF /* ic_fuel@3x.png */; };
+		02DFF88E1F40AD790098E6AF /* ic_kilometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8701F40AD790098E6AF /* ic_kilometer.png */; };
+		02DFF88F1F40AD790098E6AF /* ic_kilometer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8711F40AD790098E6AF /* ic_kilometer@2x.png */; };
+		02DFF8901F40AD790098E6AF /* ic_kilometer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8721F40AD790098E6AF /* ic_kilometer@3x.png */; };
+		02DFF8911F40AD790098E6AF /* ic_name.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8731F40AD790098E6AF /* ic_name.png */; };
+		02DFF8921F40AD790098E6AF /* ic_name@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8741F40AD790098E6AF /* ic_name@2x.png */; };
+		02DFF8931F40AD790098E6AF /* ic_name@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8751F40AD790098E6AF /* ic_name@3x.png */; };
+		02DFF8941F40AD790098E6AF /* ic_place_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8761F40AD790098E6AF /* ic_place_2x.png */; };
+		02DFF8951F40AD790098E6AF /* ic_place_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8771F40AD790098E6AF /* ic_place_3x.png */; };
+		02DFF8961F40AD790098E6AF /* ic_place.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8781F40AD790098E6AF /* ic_place.png */; };
+		02DFF8971F40AD790098E6AF /* ic_seat.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8791F40AD790098E6AF /* ic_seat.png */; };
+		02DFF8981F40AD790098E6AF /* ic_seat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF87A1F40AD790098E6AF /* ic_seat@2x.png */; };
+		02DFF8991F40AD790098E6AF /* ic_seat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF87B1F40AD790098E6AF /* ic_seat@3x.png */; };
+		02DFF89A1F40AD790098E6AF /* ic_segment.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF87C1F40AD790098E6AF /* ic_segment.png */; };
+		02DFF89B1F40AD790098E6AF /* ic_segment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF87D1F40AD790098E6AF /* ic_segment@2x.png */; };
+		02DFF89C1F40AD790098E6AF /* ic_segment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF87E1F40AD790098E6AF /* ic_segment@3x.png */; };
+		02DFF89D1F40AD790098E6AF /* ic_status.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF87F1F40AD790098E6AF /* ic_status.png */; };
+		02DFF89E1F40AD790098E6AF /* ic_status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8801F40AD790098E6AF /* ic_status@2x.png */; };
+		02DFF89F1F40AD790098E6AF /* ic_status@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8811F40AD790098E6AF /* ic_status@3x.png */; };
+		02DFF8A01F40AD790098E6AF /* ic_transmission.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8821F40AD790098E6AF /* ic_transmission.png */; };
+		02DFF8A11F40AD790098E6AF /* ic_transmission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8831F40AD790098E6AF /* ic_transmission@2x.png */; };
+		02DFF8A21F40AD790098E6AF /* ic_transmission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8841F40AD790098E6AF /* ic_transmission@3x.png */; };
+		02DFF8A31F40AD790098E6AF /* ic_year.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8851F40AD790098E6AF /* ic_year.png */; };
+		02DFF8A41F40AD790098E6AF /* ic_year@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8861F40AD790098E6AF /* ic_year@2x.png */; };
+		02DFF8A51F40AD790098E6AF /* ic_year@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8871F40AD790098E6AF /* ic_year@3x.png */; };
+		02DFF8A91F40B0110098E6AF /* HelperMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8A81F40B0110098E6AF /* HelperMethods.m */; };
+		02F7AF631F418DAA009B5F7B /* ContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F7AF621F418DAA009B5F7B /* ContactView.xib */; };
+		02F7AF661F418DE1009B5F7B /* ContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F7AF651F418DE1009B5F7B /* ContactView.m */; };
+		02F7AF6D1F4195D3009B5F7B /* ic_brand.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F7AF671F4195D3009B5F7B /* ic_brand.png */; };
+		02F7AF6E1F4195D3009B5F7B /* ic_brand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F7AF681F4195D3009B5F7B /* ic_brand@2x.png */; };
+		02F7AF6F1F4195D3009B5F7B /* ic_brand@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F7AF691F4195D3009B5F7B /* ic_brand@3x.png */; };
+		02F7AF701F4195D3009B5F7B /* ic_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F7AF6A1F4195D3009B5F7B /* ic_phone.png */; };
+		02F7AF711F4195D3009B5F7B /* ic_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F7AF6B1F4195D3009B5F7B /* ic_phone@2x.png */; };
+		02F7AF721F4195D3009B5F7B /* ic_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F7AF6C1F4195D3009B5F7B /* ic_phone@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0237EC481F41F77600898765 /* ic_bmw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bmw.png; sourceTree = "<group>"; };
+		0237EC491F41F77600898765 /* ic_chevrolet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_chevrolet.png; sourceTree = "<group>"; };
+		0237EC4A1F41F77600898765 /* ic_ford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_ford.png; sourceTree = "<group>"; };
+		0237EC4C1F41F77600898765 /* ic_hyundai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_hyundai.png; sourceTree = "<group>"; };
+		0237EC4D1F41F77600898765 /* ic_kia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_kia.png; sourceTree = "<group>"; };
+		0237EC4E1F41F77600898765 /* ic_lexus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lexus.png; sourceTree = "<group>"; };
+		0237EC4F1F41F77600898765 /* ic_mazda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mazda.png; sourceTree = "<group>"; };
+		0237EC501F41F77600898765 /* ic_mercedes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mercedes.png; sourceTree = "<group>"; };
+		0237EC511F41F77600898765 /* ic_mitsubishi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mitsubishi.png; sourceTree = "<group>"; };
+		0237EC521F41F77600898765 /* ic_others.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_others.png; sourceTree = "<group>"; };
+		0237EC531F41F77600898765 /* ic_toyota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_toyota.png; sourceTree = "<group>"; };
+		0237EC601F41F7D500898765 /* BrandCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrandCollectionViewCell.h; path = Reusable/BrandCollectionViewCell.h; sourceTree = "<group>"; };
+		0237EC611F41F7D500898765 /* BrandCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrandCollectionViewCell.m; path = Reusable/BrandCollectionViewCell.m; sourceTree = "<group>"; };
+		0237EC631F41FCEF00898765 /* ic_honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_honda.png; sourceTree = "<group>"; };
+		0237EC651F41FD4C00898765 /* ic_suzuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_suzuki.png; sourceTree = "<group>"; };
+		0237EC671F41FDBD00898765 /* ic_audi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_audi.png; sourceTree = "<group>"; };
 		02DFF7F91F40050F0098E6AF /* project-cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-cars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DFF7FD1F40050F0098E6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02DFF7FF1F40050F0098E6AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +132,47 @@
 		02DFF85F1F404C140098E6AF /* VendorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VendorInfoView.h; path = FeedDetailViews/VendorInfoView.h; sourceTree = "<group>"; };
 		02DFF8601F404C140098E6AF /* VendorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VendorInfoView.m; path = FeedDetailViews/VendorInfoView.m; sourceTree = "<group>"; };
 		02DFF8621F404EEB0098E6AF /* vendortoyota.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vendortoyota.jpg; sourceTree = "<group>"; };
+		02DFF8641F409B560098E6AF /* SpecificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpecificationView.xib; path = FeedDetailViews/SpecificationView.xib; sourceTree = "<group>"; };
+		02DFF8661F409BA20098E6AF /* SpecificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecificationView.h; path = FeedDetailViews/SpecificationView.h; sourceTree = "<group>"; };
+		02DFF8671F409BA20098E6AF /* SpecificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecificationView.m; path = FeedDetailViews/SpecificationView.m; sourceTree = "<group>"; };
+		02DFF86D1F40AD790098E6AF /* ic_fuel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_fuel.png; sourceTree = "<group>"; };
+		02DFF86E1F40AD790098E6AF /* ic_fuel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_fuel@2x.png"; sourceTree = "<group>"; };
+		02DFF86F1F40AD790098E6AF /* ic_fuel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_fuel@3x.png"; sourceTree = "<group>"; };
+		02DFF8701F40AD790098E6AF /* ic_kilometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_kilometer.png; sourceTree = "<group>"; };
+		02DFF8711F40AD790098E6AF /* ic_kilometer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_kilometer@2x.png"; sourceTree = "<group>"; };
+		02DFF8721F40AD790098E6AF /* ic_kilometer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_kilometer@3x.png"; sourceTree = "<group>"; };
+		02DFF8731F40AD790098E6AF /* ic_name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_name.png; sourceTree = "<group>"; };
+		02DFF8741F40AD790098E6AF /* ic_name@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_name@2x.png"; sourceTree = "<group>"; };
+		02DFF8751F40AD790098E6AF /* ic_name@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_name@3x.png"; sourceTree = "<group>"; };
+		02DFF8761F40AD790098E6AF /* ic_place_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_place_2x.png; sourceTree = "<group>"; };
+		02DFF8771F40AD790098E6AF /* ic_place_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_place_3x.png; sourceTree = "<group>"; };
+		02DFF8781F40AD790098E6AF /* ic_place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_place.png; sourceTree = "<group>"; };
+		02DFF8791F40AD790098E6AF /* ic_seat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_seat.png; sourceTree = "<group>"; };
+		02DFF87A1F40AD790098E6AF /* ic_seat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_seat@2x.png"; sourceTree = "<group>"; };
+		02DFF87B1F40AD790098E6AF /* ic_seat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_seat@3x.png"; sourceTree = "<group>"; };
+		02DFF87C1F40AD790098E6AF /* ic_segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_segment.png; sourceTree = "<group>"; };
+		02DFF87D1F40AD790098E6AF /* ic_segment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_segment@2x.png"; sourceTree = "<group>"; };
+		02DFF87E1F40AD790098E6AF /* ic_segment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_segment@3x.png"; sourceTree = "<group>"; };
+		02DFF87F1F40AD790098E6AF /* ic_status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_status.png; sourceTree = "<group>"; };
+		02DFF8801F40AD790098E6AF /* ic_status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_status@2x.png"; sourceTree = "<group>"; };
+		02DFF8811F40AD790098E6AF /* ic_status@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_status@3x.png"; sourceTree = "<group>"; };
+		02DFF8821F40AD790098E6AF /* ic_transmission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_transmission.png; sourceTree = "<group>"; };
+		02DFF8831F40AD790098E6AF /* ic_transmission@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_transmission@2x.png"; sourceTree = "<group>"; };
+		02DFF8841F40AD790098E6AF /* ic_transmission@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_transmission@3x.png"; sourceTree = "<group>"; };
+		02DFF8851F40AD790098E6AF /* ic_year.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_year.png; sourceTree = "<group>"; };
+		02DFF8861F40AD790098E6AF /* ic_year@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_year@2x.png"; sourceTree = "<group>"; };
+		02DFF8871F40AD790098E6AF /* ic_year@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_year@3x.png"; sourceTree = "<group>"; };
+		02DFF8A71F40B0110098E6AF /* HelperMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperMethods.h; path = Utils/HelperMethods.h; sourceTree = "<group>"; };
+		02DFF8A81F40B0110098E6AF /* HelperMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperMethods.m; path = Utils/HelperMethods.m; sourceTree = "<group>"; };
+		02F7AF621F418DAA009B5F7B /* ContactView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContactView.xib; path = FeedDetailViews/ContactView.xib; sourceTree = "<group>"; };
+		02F7AF641F418DE1009B5F7B /* ContactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactView.h; path = FeedDetailViews/ContactView.h; sourceTree = "<group>"; };
+		02F7AF651F418DE1009B5F7B /* ContactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactView.m; path = FeedDetailViews/ContactView.m; sourceTree = "<group>"; };
+		02F7AF671F4195D3009B5F7B /* ic_brand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_brand.png; sourceTree = "<group>"; };
+		02F7AF681F4195D3009B5F7B /* ic_brand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_brand@2x.png"; sourceTree = "<group>"; };
+		02F7AF691F4195D3009B5F7B /* ic_brand@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_brand@3x.png"; sourceTree = "<group>"; };
+		02F7AF6A1F4195D3009B5F7B /* ic_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_phone.png; sourceTree = "<group>"; };
+		02F7AF6B1F4195D3009B5F7B /* ic_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_phone@2x.png"; sourceTree = "<group>"; };
+		02F7AF6C1F4195D3009B5F7B /* ic_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_phone@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +186,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0237EC471F41F77600898765 /* brands */ = {
+			isa = PBXGroup;
+			children = (
+				0237EC481F41F77600898765 /* ic_bmw.png */,
+				0237EC491F41F77600898765 /* ic_chevrolet.png */,
+				0237EC631F41FCEF00898765 /* ic_honda.png */,
+				0237EC4A1F41F77600898765 /* ic_ford.png */,
+				0237EC4C1F41F77600898765 /* ic_hyundai.png */,
+				0237EC4D1F41F77600898765 /* ic_kia.png */,
+				0237EC4E1F41F77600898765 /* ic_lexus.png */,
+				0237EC4F1F41F77600898765 /* ic_mazda.png */,
+				0237EC501F41F77600898765 /* ic_mercedes.png */,
+				0237EC511F41F77600898765 /* ic_mitsubishi.png */,
+				0237EC521F41F77600898765 /* ic_others.png */,
+				0237EC531F41F77600898765 /* ic_toyota.png */,
+				0237EC651F41FD4C00898765 /* ic_suzuki.png */,
+				0237EC671F41FDBD00898765 /* ic_audi.png */,
+			);
+			path = brands;
+			sourceTree = "<group>";
+		};
 		02DFF7F01F40050F0098E6AF = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +226,7 @@
 		02DFF7FB1F40050F0098E6AF /* project-cars */ = {
 			isa = PBXGroup;
 			children = (
+				02DFF8A61F40AFDA0098E6AF /* Utils */,
 				02DFF8551F403FED0098E6AF /* FeedDetailViews */,
 				02DFF84E1F402EC00098E6AF /* Reusable */,
 				02DFF8371F40111F0098E6AF /* resource */,
@@ -150,6 +282,8 @@
 		02DFF8371F40111F0098E6AF /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				0237EC471F41F77600898765 /* brands */,
+				02DFF8691F40AD700098E6AF /* icons */,
 				02DFF8381F4011280098E6AF /* mazda3.jpg */,
 				02DFF8391F4011280098E6AF /* mercedes.jpg */,
 				02DFF8621F404EEB0098E6AF /* vendortoyota.jpg */,
@@ -162,6 +296,8 @@
 			children = (
 				02DFF84F1F402F040098E6AF /* VehicleFeedTableViewCell.h */,
 				02DFF8501F402F040098E6AF /* VehicleFeedTableViewCell.m */,
+				0237EC601F41F7D500898765 /* BrandCollectionViewCell.h */,
+				0237EC611F41F7D500898765 /* BrandCollectionViewCell.m */,
 			);
 			name = Reusable;
 			sourceTree = "<group>";
@@ -175,8 +311,63 @@
 				02DFF85F1F404C140098E6AF /* VendorInfoView.h */,
 				02DFF8601F404C140098E6AF /* VendorInfoView.m */,
 				02DFF85D1F404BF40098E6AF /* VendorInfoView.xib */,
+				02DFF8661F409BA20098E6AF /* SpecificationView.h */,
+				02DFF8671F409BA20098E6AF /* SpecificationView.m */,
+				02DFF8641F409B560098E6AF /* SpecificationView.xib */,
+				02F7AF641F418DE1009B5F7B /* ContactView.h */,
+				02F7AF651F418DE1009B5F7B /* ContactView.m */,
+				02F7AF621F418DAA009B5F7B /* ContactView.xib */,
 			);
 			name = FeedDetailViews;
+			sourceTree = "<group>";
+		};
+		02DFF8691F40AD700098E6AF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				02F7AF671F4195D3009B5F7B /* ic_brand.png */,
+				02F7AF681F4195D3009B5F7B /* ic_brand@2x.png */,
+				02F7AF691F4195D3009B5F7B /* ic_brand@3x.png */,
+				02F7AF6A1F4195D3009B5F7B /* ic_phone.png */,
+				02F7AF6B1F4195D3009B5F7B /* ic_phone@2x.png */,
+				02F7AF6C1F4195D3009B5F7B /* ic_phone@3x.png */,
+				02DFF86D1F40AD790098E6AF /* ic_fuel.png */,
+				02DFF86E1F40AD790098E6AF /* ic_fuel@2x.png */,
+				02DFF86F1F40AD790098E6AF /* ic_fuel@3x.png */,
+				02DFF8701F40AD790098E6AF /* ic_kilometer.png */,
+				02DFF8711F40AD790098E6AF /* ic_kilometer@2x.png */,
+				02DFF8721F40AD790098E6AF /* ic_kilometer@3x.png */,
+				02DFF8731F40AD790098E6AF /* ic_name.png */,
+				02DFF8741F40AD790098E6AF /* ic_name@2x.png */,
+				02DFF8751F40AD790098E6AF /* ic_name@3x.png */,
+				02DFF8761F40AD790098E6AF /* ic_place_2x.png */,
+				02DFF8771F40AD790098E6AF /* ic_place_3x.png */,
+				02DFF8781F40AD790098E6AF /* ic_place.png */,
+				02DFF8791F40AD790098E6AF /* ic_seat.png */,
+				02DFF87A1F40AD790098E6AF /* ic_seat@2x.png */,
+				02DFF87B1F40AD790098E6AF /* ic_seat@3x.png */,
+				02DFF87C1F40AD790098E6AF /* ic_segment.png */,
+				02DFF87D1F40AD790098E6AF /* ic_segment@2x.png */,
+				02DFF87E1F40AD790098E6AF /* ic_segment@3x.png */,
+				02DFF87F1F40AD790098E6AF /* ic_status.png */,
+				02DFF8801F40AD790098E6AF /* ic_status@2x.png */,
+				02DFF8811F40AD790098E6AF /* ic_status@3x.png */,
+				02DFF8821F40AD790098E6AF /* ic_transmission.png */,
+				02DFF8831F40AD790098E6AF /* ic_transmission@2x.png */,
+				02DFF8841F40AD790098E6AF /* ic_transmission@3x.png */,
+				02DFF8851F40AD790098E6AF /* ic_year.png */,
+				02DFF8861F40AD790098E6AF /* ic_year@2x.png */,
+				02DFF8871F40AD790098E6AF /* ic_year@3x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		02DFF8A61F40AFDA0098E6AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02DFF8A71F40B0110098E6AF /* HelperMethods.h */,
+				02DFF8A81F40B0110098E6AF /* HelperMethods.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,14 +429,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DFF89F1F40AD790098E6AF /* ic_status@3x.png in Resources */,
+				02DFF88F1F40AD790098E6AF /* ic_kilometer@2x.png in Resources */,
+				0237EC5B1F41F77600898765 /* ic_mazda.png in Resources */,
+				02F7AF721F4195D3009B5F7B /* ic_phone@3x.png in Resources */,
 				02DFF85E1F404BF40098E6AF /* VendorInfoView.xib in Resources */,
+				02DFF8971F40AD790098E6AF /* ic_seat.png in Resources */,
+				0237EC551F41F77600898765 /* ic_chevrolet.png in Resources */,
+				02DFF89A1F40AD790098E6AF /* ic_segment.png in Resources */,
+				02F7AF711F4195D3009B5F7B /* ic_phone@2x.png in Resources */,
+				02DFF8901F40AD790098E6AF /* ic_kilometer@3x.png in Resources */,
+				02DFF8941F40AD790098E6AF /* ic_place_2x.png in Resources */,
+				02DFF8A11F40AD790098E6AF /* ic_transmission@2x.png in Resources */,
+				0237EC541F41F77600898765 /* ic_bmw.png in Resources */,
+				02DFF8A01F40AD790098E6AF /* ic_transmission.png in Resources */,
+				02DFF8A21F40AD790098E6AF /* ic_transmission@3x.png in Resources */,
+				02DFF8981F40AD790098E6AF /* ic_seat@2x.png in Resources */,
+				02DFF89C1F40AD790098E6AF /* ic_segment@3x.png in Resources */,
 				02DFF80C1F40050F0098E6AF /* LaunchScreen.storyboard in Resources */,
 				02DFF83A1F4011280098E6AF /* mazda3.jpg in Resources */,
+				02DFF8991F40AD790098E6AF /* ic_seat@3x.png in Resources */,
+				02F7AF631F418DAA009B5F7B /* ContactView.xib in Resources */,
+				02DFF89D1F40AD790098E6AF /* ic_status.png in Resources */,
+				02DFF8A31F40AD790098E6AF /* ic_year.png in Resources */,
+				02F7AF701F4195D3009B5F7B /* ic_phone.png in Resources */,
+				02DFF8951F40AD790098E6AF /* ic_place_3x.png in Resources */,
+				02F7AF6D1F4195D3009B5F7B /* ic_brand.png in Resources */,
+				02DFF8911F40AD790098E6AF /* ic_name.png in Resources */,
+				02DFF8A51F40AD790098E6AF /* ic_year@3x.png in Resources */,
+				02DFF8931F40AD790098E6AF /* ic_name@3x.png in Resources */,
+				02F7AF6F1F4195D3009B5F7B /* ic_brand@3x.png in Resources */,
+				02DFF89B1F40AD790098E6AF /* ic_segment@2x.png in Resources */,
+				02DFF8921F40AD790098E6AF /* ic_name@2x.png in Resources */,
+				0237EC5C1F41F77600898765 /* ic_mercedes.png in Resources */,
+				0237EC5D1F41F77600898765 /* ic_mitsubishi.png in Resources */,
+				02DFF88C1F40AD790098E6AF /* ic_fuel@2x.png in Resources */,
+				0237EC641F41FCEF00898765 /* ic_honda.png in Resources */,
+				0237EC681F41FDBD00898765 /* ic_audi.png in Resources */,
+				02DFF88B1F40AD790098E6AF /* ic_fuel.png in Resources */,
+				0237EC591F41F77600898765 /* ic_kia.png in Resources */,
+				0237EC5E1F41F77600898765 /* ic_others.png in Resources */,
 				02DFF8631F404EEB0098E6AF /* vendortoyota.jpg in Resources */,
 				02DFF8091F40050F0098E6AF /* Assets.xcassets in Resources */,
 				02DFF85C1F4041080098E6AF /* ImageTitleInfoView.xib in Resources */,
+				0237EC561F41F77600898765 /* ic_ford.png in Resources */,
+				02DFF88E1F40AD790098E6AF /* ic_kilometer.png in Resources */,
+				02DFF8651F409B560098E6AF /* SpecificationView.xib in Resources */,
 				02DFF83B1F4011280098E6AF /* mercedes.jpg in Resources */,
+				02F7AF6E1F4195D3009B5F7B /* ic_brand@2x.png in Resources */,
+				0237EC5F1F41F77600898765 /* ic_toyota.png in Resources */,
+				0237EC5A1F41F77600898765 /* ic_lexus.png in Resources */,
+				02DFF89E1F40AD790098E6AF /* ic_status@2x.png in Resources */,
+				02DFF88D1F40AD790098E6AF /* ic_fuel@3x.png in Resources */,
 				02DFF8071F40050F0098E6AF /* Main.storyboard in Resources */,
+				02DFF8961F40AD790098E6AF /* ic_place.png in Resources */,
+				0237EC581F41F77600898765 /* ic_hyundai.png in Resources */,
+				0237EC661F41FD4C00898765 /* ic_suzuki.png in Resources */,
+				02DFF8A41F40AD790098E6AF /* ic_year@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +498,14 @@
 			files = (
 				02DFF8191F400B370098E6AF /* MarketViewController.m in Sources */,
 				02DFF84D1F402D180098E6AF /* Vendor.m in Sources */,
+				0237EC621F41F7D500898765 /* BrandCollectionViewCell.m in Sources */,
+				02DFF8A91F40B0110098E6AF /* HelperMethods.m in Sources */,
 				02DFF8481F402B7B0098E6AF /* Product.m in Sources */,
 				02DFF8491F402B7B0098E6AF /* Vehicle.m in Sources */,
 				02DFF8011F40050F0098E6AF /* AppDelegate.m in Sources */,
+				02F7AF661F418DE1009B5F7B /* ContactView.m in Sources */,
 				02DFF8541F403E4B0098E6AF /* FeedDetailViewController.m in Sources */,
+				02DFF8681F409BA20098E6AF /* SpecificationView.m in Sources */,
 				02DFF8161F400AE00098E6AF /* MainTabBarController.m in Sources */,
 				02DFF7FE1F40050F0098E6AF /* main.m in Sources */,
 				02DFF8611F404C140098E6AF /* VendorInfoView.m in Sources */,
@@ -426,6 +670,7 @@
 				02DFF8121F40050F0098E6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

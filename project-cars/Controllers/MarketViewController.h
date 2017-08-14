@@ -11,6 +11,8 @@
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 #define NAVIGATION_BAR_HEIGHT 64.f
+#define TABBAR_HEIGHT 49.f
+#define FEED_TABLEVIEW_HEIGHT 95.f
 
 @interface MarketViewController : UIViewController
 

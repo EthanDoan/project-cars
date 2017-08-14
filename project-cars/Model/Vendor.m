@@ -10,12 +10,13 @@
 
 @implementation Vendor
 
-- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress avatar:(UIImage *)vendorAvatar {
+- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress avatar:(UIImage *)vendorAvatar dateJoin:(NSString *)vendorDateJoin{
     self = [super init];
     if (self) {
         self.vendorName = vendorName;
         self.vendorAddress = vendorAddress;
         self.vendorAvatar = vendorAvatar;
+        self.vendorDateJoin = vendorDateJoin;
     }
     return self;
 }

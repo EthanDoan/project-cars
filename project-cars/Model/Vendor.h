@@ -14,7 +14,8 @@
 @property (strong, nonatomic) NSString *vendorName;
 @property (strong, nonatomic) NSString *vendorAddress;
 @property (strong, nonatomic) UIImage *vendorAvatar;
+@property (strong, nonatomic) NSString *vendorDateJoin;
 
-- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress avatar:(UIImage *)vendorAvatar;
+- (instancetype)initWithName:(NSString *)vendorName address:(NSString *)vendorAddress avatar:(UIImage *)vendorAvatar dateJoin:(NSString *)vendorDateJoin;
 
 @end

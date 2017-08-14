@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, VehicleTransmissionType) {
 typedef NS_ENUM(NSInteger, VehicleFuelType) {
     VEHICLE_FUEL_TYPE_GASOLINE,
     VEHICLE_FUEL_TYPE_DIESEL,
-    VEHICLE_FUEL_TYPE_ELECTIC
+    VEHICLE_FUEL_TYPE_ELECTRIC
 };
 
 typedef NS_ENUM(NSInteger, VehicleSegment) {
