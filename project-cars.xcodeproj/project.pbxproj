@@ -22,6 +22,8 @@
 		0237EC641F41FCEF00898765 /* ic_honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC631F41FCEF00898765 /* ic_honda.png */; };
 		0237EC661F41FD4C00898765 /* ic_suzuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC651F41FD4C00898765 /* ic_suzuki.png */; };
 		0237EC681F41FDBD00898765 /* ic_audi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0237EC671F41FDBD00898765 /* ic_audi.png */; };
+		02AF36B91F433DB100E80597 /* vehicle_brands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02AF36B81F433DB100E80597 /* vehicle_brands.plist */; };
+		02AF36BD1F4350C700E80597 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF36BC1F4350C700E80597 /* HomeViewController.m */; };
 		02DFF7FE1F40050F0098E6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF7FD1F40050F0098E6AF /* main.m */; };
 		02DFF8011F40050F0098E6AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF8001F40050F0098E6AF /* AppDelegate.m */; };
 		02DFF8071F40050F0098E6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DFF8051F40050F0098E6AF /* Main.storyboard */; };
@@ -99,6 +101,9 @@
 		0237EC631F41FCEF00898765 /* ic_honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_honda.png; sourceTree = "<group>"; };
 		0237EC651F41FD4C00898765 /* ic_suzuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_suzuki.png; sourceTree = "<group>"; };
 		0237EC671F41FDBD00898765 /* ic_audi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_audi.png; sourceTree = "<group>"; };
+		02AF36B81F433DB100E80597 /* vehicle_brands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vehicle_brands.plist; sourceTree = "<group>"; };
+		02AF36BB1F4350C700E80597 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controllers/HomeViewController.h; sourceTree = "<group>"; };
+		02AF36BC1F4350C700E80597 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controllers/HomeViewController.m; sourceTree = "<group>"; };
 		02DFF7F91F40050F0098E6AF /* project-cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-cars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DFF7FD1F40050F0098E6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02DFF7FF1F40050F0098E6AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -207,6 +212,14 @@
 			path = brands;
 			sourceTree = "<group>";
 		};
+		02AF36BA1F433F3A00E80597 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				02AF36B81F433DB100E80597 /* vehicle_brands.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
 		02DFF7F01F40050F0098E6AF = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +267,8 @@
 		02DFF8131F400A890098E6AF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				02AF36BB1F4350C700E80597 /* HomeViewController.h */,
+				02AF36BC1F4350C700E80597 /* HomeViewController.m */,
 				02DFF8141F400AE00098E6AF /* MainTabBarController.h */,
 				02DFF8151F400AE00098E6AF /* MainTabBarController.m */,
 				02DFF8171F400B370098E6AF /* MarketViewController.h */,
@@ -282,6 +297,7 @@
 		02DFF8371F40111F0098E6AF /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				02AF36BA1F433F3A00E80597 /* plist */,
 				0237EC471F41F77600898765 /* brands */,
 				02DFF8691F40AD700098E6AF /* icons */,
 				02DFF8381F4011280098E6AF /* mazda3.jpg */,
@@ -430,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DFF89F1F40AD790098E6AF /* ic_status@3x.png in Resources */,
+				02AF36B91F433DB100E80597 /* vehicle_brands.plist in Resources */,
 				02DFF88F1F40AD790098E6AF /* ic_kilometer@2x.png in Resources */,
 				0237EC5B1F41F77600898765 /* ic_mazda.png in Resources */,
 				02F7AF721F4195D3009B5F7B /* ic_phone@3x.png in Resources */,
@@ -504,6 +521,7 @@
 				02DFF8491F402B7B0098E6AF /* Vehicle.m in Sources */,
 				02DFF8011F40050F0098E6AF /* AppDelegate.m in Sources */,
 				02F7AF661F418DE1009B5F7B /* ContactView.m in Sources */,
+				02AF36BD1F4350C700E80597 /* HomeViewController.m in Sources */,
 				02DFF8541F403E4B0098E6AF /* FeedDetailViewController.m in Sources */,
 				02DFF8681F409BA20098E6AF /* SpecificationView.m in Sources */,
 				02DFF8161F400AE00098E6AF /* MainTabBarController.m in Sources */,
@@ -633,6 +651,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RC9B9M5SNE;
 				INFOPLIST_FILE = "project-cars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "phuong.project.project-cars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -645,6 +664,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RC9B9M5SNE;
 				INFOPLIST_FILE = "project-cars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "phuong.project.project-cars";
 				PRODUCT_NAME = "$(TARGET_NAME)";

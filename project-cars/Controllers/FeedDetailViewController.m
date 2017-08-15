@@ -51,14 +51,13 @@
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) NSMutableArray *specs;
 
+
 @end
 
 @implementation FeedDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    _specs = [[NSMutableArray alloc] init];
     
     _sumHeight = NAVIGATION_BAR_HEIGHT;
     _scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];

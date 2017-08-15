@@ -18,6 +18,7 @@
 @property (strong, nonatomic) NSMutableArray *brands;
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (assign, nonatomic) NSInteger sumHeight;
+@property (strong, nonatomic) UISearchController *searchController;
 
 @end
 
@@ -33,82 +34,8 @@
     [_scrollView setFrame:self.view.frame];
     [self.view addSubview:_scrollView];
     
-    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
-    dict[@"brandName"] = @"BMW";
-    dict[@"brandLogo"] = @"ic_bmw";
-    [_brands addObject:dict];
-    
-    NSMutableDictionary *dict1 = [[NSMutableDictionary alloc] init];
-    dict1[@"brandName"] = @"Chevrolet";
-    dict1[@"brandLogo"] = @"ic_chevrolet";
-    [_brands addObject:dict1];
-
-    NSMutableDictionary *dict2 = [[NSMutableDictionary alloc] init];
-    dict2[@"brandName"] = @"Ford";
-    dict2[@"brandLogo"] = @"ic_ford";
-    [_brands addObject:dict2];
-
-    NSMutableDictionary *dict3 = [[NSMutableDictionary alloc] init];
-    dict3[@"brandName"] = @"Honda";
-    dict3[@"brandLogo"] = @"ic_honda";
-    [_brands addObject:dict3];
-
-    NSMutableDictionary *dict4 = [[NSMutableDictionary alloc] init];
-    dict4[@"brandName"] = @"Hyundai";
-    dict4[@"brandLogo"] = @"ic_hyundai";
-    [_brands addObject:dict4];
-
-    NSMutableDictionary *dict5 = [[NSMutableDictionary alloc] init];
-    dict5[@"brandName"] = @"KIA";
-    dict5[@"brandLogo"] = @"ic_kia";
-    [_brands addObject:dict5];
-
-    NSMutableDictionary *dict6 = [[NSMutableDictionary alloc] init];
-    dict6[@"brandName"] = @"Lexus";
-    dict6[@"brandLogo"] = @"ic_lexus";
-    [_brands addObject:dict6];
-    
-    NSMutableDictionary *dict7 = [[NSMutableDictionary alloc] init];
-    dict7[@"brandName"] = @"Mazda";
-    dict7[@"brandLogo"] = @"ic_mazda";
-    [_brands addObject:dict7];
-    
-    NSMutableDictionary *dict8 = [[NSMutableDictionary alloc] init];
-    dict8[@"brandName"] = @"Mercedes";
-    dict8[@"brandLogo"] = @"ic_mercedes";
-    [_brands addObject:dict8];
-    
-    NSMutableDictionary *dict9 = [[NSMutableDictionary alloc] init];
-    dict9[@"brandName"] = @"Mitsubishi";
-    dict9[@"brandLogo"] = @"ic_mitsubishi";
-    [_brands addObject:dict9];
-    
-    NSMutableDictionary *dict10 = [[NSMutableDictionary alloc] init];
-    dict10[@"brandName"] = @"Toyota";
-    dict10[@"brandLogo"] = @"ic_toyota";
-    [_brands addObject:dict10];
-    
-    NSMutableDictionary *dict11 = [[NSMutableDictionary alloc] init];
-    dict11[@"brandName"] = @"Suzuki";
-    dict11[@"brandLogo"] = @"ic_suzuki";
-    [_brands addObject:dict11];
-    
-    NSMutableDictionary *dict12 = [[NSMutableDictionary alloc] init];
-    dict12[@"brandName"] = @"Audi";
-    dict12[@"brandLogo"] = @"ic_audi";
-    [_brands addObject:dict12];
-    
-    NSMutableDictionary *dict13 = [[NSMutableDictionary alloc] init];
-    dict13[@"brandName"] = @"others";
-    dict13[@"brandLogo"] = @"ic_others";
-    [_brands addObject:dict13];
-    
-    [[NSUserDefaults standardUserDefaults] setObject:_brands forKey:@"brandArray"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-    
-    
-    
-    
+    NSDictionary *dictRoot = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"vehicle_brands" ofType:@"plist"]];
+    _brands = [NSMutableArray arrayWithArray:[dictRoot objectForKey:@"brands"]];
     
     [_brandCollectionView reloadData];
     [_brandCollectionView setFrame:CGRectMake(0, 64, SCREEN_WIDTH, 100)];
@@ -214,8 +141,5 @@
     
     return cell;
 }
-
-
-
 
 @end

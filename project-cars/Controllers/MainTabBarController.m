@@ -8,7 +8,8 @@
 
 #import "MainTabBarController.h"
 
-@interface MainTabBarController ()
+@interface MainTabBarController () <UISearchBarDelegate>
+@property (strong, nonatomic) UISearchBar *searchBar;
 
 @end
 
@@ -17,7 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:self.navigationItem.backBarButtonItem.style target:nil action:nil];
+
+    _searchBar = [[UISearchBar alloc] init];
+    _searchBar.delegate = self;
+    [_searchBar sizeToFit];
+    self.navigationItem.titleView = _searchBar;
 
 }
 
